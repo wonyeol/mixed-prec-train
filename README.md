@@ -1,6 +1,6 @@
 ## Paper
 
-This repository is an implementation for the following paper:
+This repository is an implementation for the following paper.
 - [**Training with Mixed-Precision Floating-Point Assignments**](https://openreview.net/forum?id=ZoXi7n54OB)</br>
   [Wonyeol Lee](https://wonyeol.github.io/),
   [Rahul Sharma](https://www.microsoft.com/en-us/research/people/rahsha/),
