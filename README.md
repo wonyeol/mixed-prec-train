@@ -9,7 +9,7 @@ This repository is an implementation for the following paper:
 
 ## Scripts
 
-You can reproduce the results on CIFAR datasets by running the following commands.
+The results on CIFAR datasets in the paper can be reproduced by running the following commands.
 - Figures 4, 10, 11, 12: `bash main_1.sh`
 - Figures 5, 16        : `bash main_2.sh`
 - Figure  17           : `bash main_3.sh`
@@ -17,7 +17,7 @@ You can reproduce the results on CIFAR datasets by running the following command
 
 ##  Packages
 
-We used the following conda packages in our experiments.
+The following conda packages were used in our experiments.
   
 ```    
     # packages in environment at /[user]/.conda/envs/test2:
