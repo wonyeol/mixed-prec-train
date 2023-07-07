@@ -1,20 +1,25 @@
-====================
- Experiment Scripts
-====================
+## Paper
 
-- You can reproduce the results on CIFAR datasets by running the following commands four times.
-  - Figures 4, 10, 11, 12: `bash main_1.sh`
-  - Figures 5, 16        : `bash main_2.sh`
-  - Figure  17           : `bash main_3.sh`
+This repository is an implementation for the following paper:
+- [**Training with Mixed-Precision Floating-Point Assignments**](https://openreview.net/forum?id=ZoXi7n54OB)</br>
+  [Wonyeol Lee](https://wonyeol.github.io/),
+  [Rahul Sharma](https://www.microsoft.com/en-us/research/people/rahsha/),
+  [Alex Aiken](https://theory.stanford.edu/~aiken/)</br>
+  [TMLR 2023]([https://popl23.sigplan.org/](https://openreview.net/group?id=TMLR))
+
+## Scripts
+
+You can reproduce the results on CIFAR datasets by running the following commands.
+- Figures 4, 10, 11, 12: `bash main_1.sh`
+- Figures 5, 16        : `bash main_2.sh`
+- Figure  17           : `bash main_3.sh`
 
 
-===================
- Required Packages
-===================
+##  Packages
 
-- For our implementation and experiments, we installed the following conda packages,
-  where the list of packages were obtained by running the command `conda list`.
-    
+We used the following conda packages in our experiments.
+  
+```    
     # packages in environment at /[user]/.conda/envs/test2:
     #
     # Name                    Version                   Build  Channel
@@ -124,3 +129,4 @@
     yaml                      0.2.5                h4e0d66e_2    conda-forge
     zlib                      1.2.11            hb283c62_1014    conda-forge
     zstd                      1.5.1                h65c4b1a_0    conda-forge
+```
